@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width:  100%;
+    height: 60px;
+    background-color: #406343
+}
+.header a{
+    text-decoration: none;
+    color: white
+    ;
+}
+.login{
+    display: flex;
+  
+}
+.login div{
+    margin: 10px;
+}
+.login .active{
+    color: gold;
+}
+.header .active{
+    color: gold;
+}
+.logout{
+    width: 100px;
+    box-sizing: border-box;
+    background-color:#406343;
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+.logout :a{
+    color: yellow;
+}

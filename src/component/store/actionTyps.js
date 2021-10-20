@@ -1,0 +1,2 @@
+export const SET_REGIST_INFO = "SET_REGIST_INFO";
+export const SET_LOGIN_INFO = "SET_LOGIN_INFO";

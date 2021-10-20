@@ -1,0 +1,19 @@
+
+.employees{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    background-color: #E05433;
+}
+.forgotButton{
+    background-color: white;
+    border: none;
+    
+}
+.forgotButton a:hover{
+    background-color: rgb(196, 185, 185);
+}
+.span{
+    margin-top: 20px;
+}

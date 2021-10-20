@@ -1,0 +1,132 @@
+.loginDiv {
+
+    max-width: 540px;
+    height: 484px;
+    margin: 0 auto;
+    padding: 50px;
+    
+}
+
+.text{
+    margin-top: 15px;
+}
+.profIcon{
+    display: inline-block;
+}
+.pRegist {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    color: #212529;
+    
+    margin-bottom: 20px;
+    
+}
+.register p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #212529;
+    text-align: left;
+}
+.span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #212529;
+    display: block;
+}
+.register input {
+    width: 450px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 1px solid #CED4DA;
+    box-sizing: border-box;
+    border-radius: 0;
+    margin-bottom: 23px;
+}
+.register button {
+    width: 450px;
+    height: 38px;
+    background-color: #406343;
+    border: 1px solid #406343;
+    box-sizing: border-box;
+    border-radius: 0;
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 16px;
+
+}
+.checkbox {
+    width: 450px;
+    height: 122px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    box-sizing: border-box;
+    border-radius: 0;
+    padding: 21px;
+    margin-bottom: 17px;
+}
+.checkbox p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #212529;
+    margin-bottom: 15px;
+}
+.checkbox input {
+    width: 13px;
+    height: 13px;
+    margin-top: 0;
+   
+}
+.regP p{
+ font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #DC3545;
+}
+.register button{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+
+@media (max-width:500px){
+    .register input {
+        width: 200px;
+        height: 38px;
+        background: #FFFFFF;
+        border: 1px solid #CED4DA;
+        box-sizing: border-box;
+        border-radius: 0;
+        margin-bottom: 23px;
+    }
+    .register button {
+        width: 200px;
+        height: 38px;
+        background-color: #405433;
+        border: 1px solid #406343;
+        box-sizing: border-box;
+        border-radius: 0;
+        margin-top: 10px;
+        display: block;
+        margin-bottom: 16px;
+    
+    }
+}
+

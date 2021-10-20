@@ -1,0 +1,17 @@
+.done{
+    text-decoration: line-through;
+  }
+  .overflow{
+    overflow: auto;
+}
+.drag{
+  border-bottom: 1px solid;
+}
+
+
+ @media(max-width:360px){
+  .dragAll{
+    width: 360px;
+  }
+ }
+

@@ -1,0 +1,86 @@
+.deadline{
+
+        border: 3px solid #b2b1b1;
+        width: 165px;
+        height: 40px;
+        position: relative;
+        vertical-align: middle;
+        box-sizing: border-box;
+        margin-right: 20px;
+        padding: 7px;
+        border-radius: 10px;
+        opacity: 0.8;
+        outline: none;
+
+     
+}
+
+.h1{
+        display: flex;
+
+        justify-content: center;
+}
+.green{
+        background-color: green;
+}
+.TodoTutorial{
+        background-color:#F3EFCC
+}
+
+.select{
+        border-radius: 5px;
+       
+        background-color: rgb(209, 198, 183)
+}
+.btn{
+        margin-left: 20px;
+       background-color: white;
+       color: gray;
+        height: 40px;
+        
+}
+.formInp{
+        display: flex;
+       
+}
+.buttons{
+        display: flex;
+} 
+@media(max-width:360px){
+    .btn{
+            margin-bottom: 10px;
+    } 
+    .group{
+            padding: 0;
+            
+    }
+   
+    .deadline{
+
+        border: 3px solid #b2b1b1;
+        width: 138px;
+        height: 30px;
+        position: relative;
+        vertical-align: middle;
+        box-sizing: border-box;
+        margin-right: 20px;
+        padding: 2px;
+        border-radius: 10px;
+        opacity: 0.8;
+        outline: none;
+
+     
+} 
+.select{
+        padding: 0;
+}
+.formInp{
+        display: flex;
+        margin-left: 2px;
+        margin-bottom: 10px;
+}
+.buttons{
+        display: block;
+        text-align: center;
+} 
+}
